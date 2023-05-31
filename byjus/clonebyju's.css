@@ -1,0 +1,186 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+
+}
+nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}    
+nav .logo img{
+    width: 13rem;
+    cursor: pointer;
+    margin-right: 99px;
+
+}
+nav .menu a{
+    color: gold;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+nav .menu a img{
+    width: 29px;
+    margin-bottom: -8px;
+    padding: 3px;
+}
+nav .menu .log{
+    color: gold;
+    background: transparent;
+    border: 1.5px solid gold;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+nav .menu .call,.search{
+    background: gold;
+    padding: 5px 5px;
+    border-radius: 50%;
+    margin-bottom: -7px;
+    margin-left: 16px;
+    cursor: pointer;
+
+}
+.search{
+    width: 27px;
+}
+.mainbody .mainbody-bg{
+    position: relative;
+    width: 100vw;
+    object-fit: cover;
+    z-index: 1000;
+    height: 111vh;
+}
+.mainbody .mainbodysrk{
+    position: absolute;
+    width: 990px;
+    height: auto;
+    z-index: 1008;
+    left: 0;
+    margin-top: -800px;
+}
+.mainbody .form{
+    position:absolute;
+    
+    z-index: 1008;
+    right: 0;
+    background: white;
+    width: calc(100% / 2-130px);
+
+    padding: 30px 30px;
+    margin-top: -42rem;
+    margin-right: 4rem;
+    border-radius: 15px;
+    text-align: center;
+    
+    
+}
+.arrowdown{
+    width: 55px;
+    
+    margin-top: -70px;
+    margin-bottom: 30px;
+    margin-left: 461px;
+    
+}
+.mainbody .form form{
+    display: inline-grid;
+    padding: 20px;
+}
+.mainbody .form form input{
+    width: 32rem;
+    margin-bottom: 20px;
+    padding: 15px 13px;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 200, 200) ;
+
+
+
+}
+
+.mainbody .form form .book-class{
+padding: 14px 14px;
+border-radius: 10px;
+border:transparent;
+font-size: 30px;
+font-weight: 600;
+
+
+
+}
+.book-class{
+    color: aliceblue;
+    background:linear-gradient(orange,rgb(255, 102, 0));
+    transition: background 1s;
+    
+}
+.book-class:hover{
+
+color: aliceblue;
+    background:red ;
+}
+.mainbody .form .top{
+    font-size: 27px;
+    font-weight: 550;
+    padding: 20px;
+    margin-bottom: 10px;
+    
+}
+.mainbody .form .middle{
+
+    font-size: 15px;
+    font-weight: 55;
+    color: rgb(126, 124, 123);
+    
+    margin-bottom: 10px;
+}
+.mainbody .form .bottom{
+    font-size: 22px;
+    font-weight: 550;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    
+
+}
+.mainbody .form form .otp{
+    width: 90px;
+    padding: 13px 9px;
+    border-radius: 10px;
+    border:transparent;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(rgb(26, 109, 234), rgb(108, 22, 230));
+    margin-top: -65px;
+    margin-bottom: 30px;
+    margin-left: 421px;
+}
+.mainbody .form .hr1{
+    border: 1px solid white;
+    width: 8.5rem;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.mainbody .form .hr2{
+    border: 1px solid rgb(253, 248, 248);
+    width: 8.5rem;
+    margin-left: 290px;
+    margin-top: -28px;
+}
